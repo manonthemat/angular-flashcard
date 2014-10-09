@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="flippingapp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.5/angular.js"></script>
+    <script src="flashcard.js"></script>
+    <script>
+      angular.module('flippingapp', ['flashcards']);
+    </script>
+  </head>
+  <body>
+    <div flashcard width='500' height='200' transition="0.5">
+      <front style="background-color: pink">click me to flip me</front>
+      <back style="background-color: yellow">vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim vim</back>
+    </div>
+  </body>
+</html>
+
