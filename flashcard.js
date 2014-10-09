@@ -80,6 +80,7 @@ angular.module('flashcards', [])
       e.css('left', '0');
       e.css('width', '100%');
       e.css('height', '100%');
+      e.css('overflow', 'hidden');
 
       // --- front only css
       e.css('transform', 'rotateY(0deg)');
@@ -102,6 +103,7 @@ angular.module('flashcards', [])
       e.css('left', '0');
       e.css('width', '100%');
       e.css('height', '100%');
+      e.css('overflow', 'hidden');
 
       // --- back only css
       e.css('transform', 'rotateY(180deg)');
